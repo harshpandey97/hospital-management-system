@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏥 Hospital Management System — SQL Server Database
+# 🏥 Hospital Management System — Using Microsoft SQL Server Management Studio 
 
 ### A complete relational database solution for managing hospital operations, built entirely in Microsoft SQL Server Management Studio (SSMS).
 
