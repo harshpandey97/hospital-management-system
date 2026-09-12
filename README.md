@@ -81,19 +81,98 @@ This project is **database-only**: there is no frontend or backend application l
 | **Database Engine** | Microsoft SQL Server (2019 / 2022) |
 | **IDE / Tool** | SQL Server Management Studio (SSMS) |
 | **Language** | T-SQL (Transact-SQL) |
-| **Diagramming** | SSMS Database Diagrams / dbdiagram.io |
+| **Diagramming** | Mermaid (rendered natively by GitHub) |
 
 ---
 
 ## 🗂️ Database Schema (ER Diagram)
 
-<div align="center">
+```mermaid
+erDiagram
+    DEPARTMENTS ||--o{ DOCTORS : employs
+    DOCTORS ||--o{ APPOINTMENTS : attends
+    PATIENTS ||--o{ APPOINTMENTS : books
+    APPOINTMENTS ||--o{ PRESCRIPTIONS : generates
+    MEDICINES ||--o{ PRESCRIPTIONS : "prescribed in"
+    PATIENTS ||--o{ ADMISSIONS : has
+    DOCTORS ||--o{ ADMISSIONS : oversees
+    WARDS ||--o{ BEDS : contains
+    BEDS ||--o{ ADMISSIONS : "assigned to"
+    PATIENTS ||--o{ BILLING : receives
+    USERS ||--o{ STAFF : "linked to"
 
-![ER Diagram](https://via.placeholder.com/800x500?text=ER+Diagram+-+Add+your+schema+diagram+here)
+    DEPARTMENTS {
+        int DepartmentID PK
+        string DepartmentName
+    }
+    DOCTORS {
+        int DoctorID PK
+        string Name
+        string Specialization
+        int DepartmentID FK
+    }
+    PATIENTS {
+        int PatientID PK
+        string Name
+        int Age
+        string Gender
+        string ContactNo
+    }
+    APPOINTMENTS {
+        int AppointmentID PK
+        int PatientID FK
+        int DoctorID FK
+        datetime AppointmentDate
+        string Status
+    }
+    ADMISSIONS {
+        int AdmissionID PK
+        int PatientID FK
+        int DoctorID FK
+        int BedID FK
+        datetime AdmissionDate
+        datetime DischargeDate
+    }
+    WARDS {
+        int WardID PK
+        string WardName
+    }
+    BEDS {
+        int BedID PK
+        int WardID FK
+        string Status
+    }
+    BILLING {
+        int BillID PK
+        int PatientID FK
+        decimal TotalAmount
+        string PaymentStatus
+        date BillDate
+    }
+    MEDICINES {
+        int MedicineID PK
+        string Name
+        int Stock
+        date ExpiryDate
+    }
+    PRESCRIPTIONS {
+        int PrescriptionID PK
+        int AppointmentID FK
+        int MedicineID FK
+    }
+    STAFF {
+        int StaffID PK
+        string Name
+        string Role
+    }
+    USERS {
+        int UserID PK
+        string Username
+        string Role
+    }
+```
 
-</div>
-
-> Export your ER diagram from **SSMS → Database Diagrams**, or generate one via [dbdiagram.io](https://dbdiagram.io), and place the image in `/docs/er-diagram.png`.
+> Renders natively on GitHub — no external image host needed. Update the field names above to match your actual `CREATE TABLE` scripts.
 
 ---
 
