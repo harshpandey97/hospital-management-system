@@ -1,6 +1,6 @@
- <div align="center">
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/lines.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC2927,100:4479A1&height=180&section=header&text=Hospital%20Management%20System&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%">
 
 # 🏥 Hospital Management System — Built in Microsoft SQL Server Management Studio
 
@@ -10,7 +10,7 @@
 
 ### A complete relational database solution for managing hospital operations, built entirely in Microsoft SQL Server Management Studio (SSMS).
 
-[![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
+[![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![T-SQL](https://img.shields.io/badge/Language-T--SQL-4479A1?logo=databricks&logoColor=white)](https://learn.microsoft.com/en-us/sql/t-sql/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/harshpandey97/hospital-management-system?color=orange)](https://github.com/harshpandey97/hospital-management-system/commits)
@@ -380,6 +380,6 @@ Project Link: [https://github.com/harshpandey97/hospital-management-system](http
 
 ⭐ **If you found this project useful, consider giving it a star!** ⭐
 
-<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/lines.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4479A1,100:CC2927&height=150&section=footer&animation=fadeIn" width="100%">
 
 </div>
