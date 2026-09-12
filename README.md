@@ -1,15 +1,27 @@
 <div align="center">
 
-# 🏥 Hospital Management System — Using Microsoft SQL Server Management Studio 
+<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/lines.gif" width="100%">
+
+# 🏥 Hospital Management System — Built in Microsoft SQL Server Management Studio
+
+<a href="https://github.com/harshpandey97/hospital-management-system">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=CC2927&center=true&vCenter=true&width=650&lines=Fully+Normalized+Hospital+Database+in+T-SQL;Stored+Procedures+%7C+Views+%7C+Triggers;Patients+%C2%B7+Doctors+%C2%B7+Appointments+%C2%B7+Billing;Built+in+SQL+Server+Management+Studio+(SSMS)" alt="Typing SVG" />
+</a>
 
 ### A complete relational database solution for managing hospital operations, built entirely in Microsoft SQL Server Management Studio (SSMS).
 
 [![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
+[![T-SQL](https://img.shields.io/badge/Language-T--SQL-4479A1?logo=databricks&logoColor=white)](https://learn.microsoft.com/en-us/sql/t-sql/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/yourusername/hospital-management-system-sql)](https://github.com/yourusername/hospital-management-system-sql/issues)
-[![Stars](https://img.shields.io/github/stars/yourusername/hospital-management-system-sql)](https://github.com/yourusername/hospital-management-system-sql/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/harshpandey97/hospital-management-system?color=orange)](https://github.com/harshpandey97/hospital-management-system/commits)
+[![Repo Size](https://img.shields.io/github/repo-size/harshpandey97/hospital-management-system?color=success)](https://github.com/harshpandey97/hospital-management-system)
+[![Issues](https://img.shields.io/github/issues/harshpandey97/hospital-management-system)](https://github.com/harshpandey97/hospital-management-system/issues)
+[![Stars](https://img.shields.io/github/stars/harshpandey97/hospital-management-system?style=social)](https://github.com/harshpandey97/hospital-management-system/stargazers)
+[![Forks](https://img.shields.io/github/forks/harshpandey97/hospital-management-system?style=social)](https://github.com/harshpandey97/hospital-management-system/network/members)
 
-[Report Bug](../../issues) · [Request Feature](../../issues)
+![Profile Views](https://komarev.com/ghpvc/?username=harshpandey97&label=Repo%20Views&color=CC2927&style=flat)
+
+[Report Bug](https://github.com/harshpandey97/hospital-management-system/issues) · [Request Feature](https://github.com/harshpandey97/hospital-management-system/issues)
 
 </div>
 
@@ -41,9 +53,7 @@
 
 **Hospital Management System (HMS)** is a fully normalized SQL Server database designed and built in **SQL Server Management Studio (SSMS)**. It models core hospital operations — patient records, doctor and staff details, appointments, admissions, billing, and pharmacy inventory — using T-SQL tables, constraints, stored procedures, views, and triggers.
 
-This project is **database-only**: there is no frontend or backend application layer. It's intended for learning, academic submission, database administration practice, or as the foundation for a future full-stack application.
-
-> Replace this section with specifics about your implementation — purpose (academic project, portfolio, production-ready schema), scale, and what makes your schema design notable.
+This project is **database-only**: there is no frontend or backend application layer. It's part of a structured SQL Server / T-SQL learning and portfolio project, and doubles as a foundation for a future full-stack application.
 
 ---
 
@@ -119,8 +129,8 @@ This project is **database-only**: there is no frontend or backend application l
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hospital-management-system-sql.git
-   cd hospital-management-system-sql
+   git clone https://github.com/harshpandey97/hospital-management-system.git
+   cd hospital-management-system
    ```
 
 2. **Open SSMS and connect to your local server instance**
@@ -227,7 +237,7 @@ ORDER BY AppointmentCount DESC;
 ## 📁 Project Structure
 
 ```
-hospital-management-system-sql/
+hospital-management-system/
 ├── scripts/
 │   ├── 01_create_database.sql
 │   ├── 02_create_tables.sql
@@ -256,7 +266,7 @@ hospital-management-system-sql/
 - [ ] SSIS package for data import/export
 - [ ] SSRS reports integration
 
-See [open issues](../../issues) for a full list of proposed enhancements.
+See [open issues](https://github.com/harshpandey97/hospital-management-system/issues) for a full list of proposed enhancements.
 
 ---
 
@@ -280,12 +290,17 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ## 📬 Contact
 
-**Your Name** — youremail@example.com
+**Harsh Pandey**
 
-Project Link: [https://github.com/yourusername/hospital-management-system-sql](https://github.com/yourusername/hospital-management-system-sql)
+[![Gmail](https://img.shields.io/badge/Email-harshpandey6012%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:harshpandey6012@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-harshpandey97-181717?logo=github&logoColor=white)](https://github.com/harshpandey97)
+
+Project Link: [https://github.com/harshpandey97/hospital-management-system](https://github.com/harshpandey97/hospital-management-system)
 
 <div align="center">
 
 ⭐ **If you found this project useful, consider giving it a star!** ⭐
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/lines.gif" width="100%">
 
 </div>
